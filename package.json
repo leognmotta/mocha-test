@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "nyc --all mocha",
+    "test": "nyc mocha \"__tests__/**/*.js\"",
     "posttest": "nyc report --reporter=lcov"
   },
   "devDependencies": {

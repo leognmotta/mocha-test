@@ -1,7 +1,6 @@
-const mongoose = require('mongoose');
 const { expect } = require('chai');
 
-const Cart = require('../src/models/Cart');
+const Cart = require('../../src/models/Cart');
 
 describe('some', () => {
   // beforeEach(done => mongoose.connection.collections.carts.drop(() => done()));
